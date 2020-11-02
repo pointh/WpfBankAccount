@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label Content="Add amount: "/>
+        <TextBox Name="Amount"/>
+        <Button x:Name="Deposit" Content="Deposit" Click="Deposit_Click"/>
+        <Label Margin="0, 100, 0, 0" x:Name="NewBalance" Background="Azure" HorizontalContentAlignment="Center" Content="0.0"/>
+    </StackPanel>
+</Window>
